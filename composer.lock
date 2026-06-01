@@ -4,7 +4,7 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "5df4a89701d63326d9f5d6a14d846659",
+  "content-hash": "d1f06df3f79fcc1174fc74334c3169ac",
   "packages": [
     {
       "name": "aws/aws-crt-php",
@@ -6266,16 +6266,16 @@
     },
     {
       "name": "symfony/http-client",
-      "version": "v7.3.4",
+      "version": "v7.4.13",
       "source": {
         "type": "git",
         "url": "https://github.com/symfony/http-client.git",
-        "reference": "4b62871a01c49457cf2a8e560af7ee8a94b87a62"
+        "reference": "e8a112b8415707265a7e614278136a9d92989a6a"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/symfony/http-client/zipball/4b62871a01c49457cf2a8e560af7ee8a94b87a62",
-        "reference": "4b62871a01c49457cf2a8e560af7ee8a94b87a62",
+        "url": "https://api.github.com/repos/symfony/http-client/zipball/e8a112b8415707265a7e614278136a9d92989a6a",
+        "reference": "e8a112b8415707265a7e614278136a9d92989a6a",
         "shasum": ""
       },
       "require": {
@@ -6306,12 +6306,13 @@
         "php-http/httplug": "^1.0|^2.0",
         "psr/http-client": "^1.0",
         "symfony/amphp-http-client-meta": "^1.0|^2.0",
-        "symfony/dependency-injection": "^6.4|^7.0",
-        "symfony/http-kernel": "^6.4|^7.0",
-        "symfony/messenger": "^6.4|^7.0",
-        "symfony/process": "^6.4|^7.0",
-        "symfony/rate-limiter": "^6.4|^7.0",
-        "symfony/stopwatch": "^6.4|^7.0"
+        "symfony/cache": "^6.4|^7.0|^8.0",
+        "symfony/dependency-injection": "^6.4|^7.0|^8.0",
+        "symfony/http-kernel": "^6.4|^7.0|^8.0",
+        "symfony/messenger": "^6.4|^7.0|^8.0",
+        "symfony/process": "^6.4|^7.0|^8.0",
+        "symfony/rate-limiter": "^6.4|^7.0|^8.0",
+        "symfony/stopwatch": "^6.4|^7.0|^8.0"
       },
       "type": "library",
       "autoload": {
@@ -6342,7 +6343,7 @@
         "http"
       ],
       "support": {
-        "source": "https://github.com/symfony/http-client/tree/v7.3.4"
+        "source": "https://github.com/symfony/http-client/tree/v7.4.13"
       },
       "funding": [
         {
@@ -6362,7 +6363,7 @@
           "type": "tidelift"
         }
       ],
-      "time": "2025-09-11T10:12:26+00:00"
+      "time": "2026-05-24T09:57:54+00:00"
     },
     {
       "name": "symfony/http-client-contracts",
@@ -7374,6 +7375,86 @@
         }
       ],
       "time": "2025-01-02T08:10:11+00:00"
+    },
+    {
+      "name": "symfony/polyfill-php83",
+      "version": "v1.38.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php83.git",
+        "reference": "8339098cae28673c15cce00d80734af0453054e2"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/8339098cae28673c15cce00d80734af0453054e2",
+        "reference": "8339098cae28673c15cce00d80734af0453054e2",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/polyfill",
+          "name": "symfony/polyfill"
+        }
+      },
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ],
+        "psr-4": {
+          "Symfony\\Polyfill\\Php83\\": ""
+        },
+        "classmap": [
+          "Resources/stubs"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/polyfill-php83/tree/v1.38.1"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2026-05-26T12:51:13+00:00"
     },
     {
       "name": "symfony/polyfill-php84",
